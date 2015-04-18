@@ -1,0 +1,46 @@
+header, main, footer {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo:hover {
+    background-color: transparent !important;
+}
+
+.top-nav {
+    position: absolute;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    left: 7.5%;
+    top: 0;
+    float: none;
+    margin-left: 1.5rem;
+    color: #fff;
+    font-size: 32px;
+    z-index: 2;
+    line-height: 62px;
+}
+
+.side-nav.fixed li {
+    padding: 0;
+}
+
+.side-nav.fixed li a {
+    padding: 0 30px;
+}
+
+.pointer {
+    cursor: pointer;
+}
